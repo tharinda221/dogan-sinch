@@ -6,6 +6,9 @@ using Library;
 
 namespace MessageEncoder {
 
+    /*
+     * SimpleMessageCodec class which is using MessageCodec interface to implement encode and decode methods   
+     */
     public class SimpleMessageCodec : MessageCodec
     {
         public byte[] Encode(Message message)

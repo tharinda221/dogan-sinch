@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace Library {
 
+    /*
+     * DecodedMessage class which will be used to output the decoded message  
+     */
     public class DecodedMessage {
         public enum MessageStatus {Sucess, Falied};
 
@@ -15,6 +18,9 @@ namespace Library {
         }
     }
 
+    /*
+     * MessageCodec interface which abstract Message encoding and decoding 
+     */
     public interface MessageCodec {
         byte[] Encode(Message message);
         DecodedMessage Decode(byte[] data);

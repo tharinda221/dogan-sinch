@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Library {
+    /*
+     * Message class which stores headers and payload data
+     */
     public class Message {
         private Dictionary<String, String> headers;
         private byte[] payload;

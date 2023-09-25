@@ -2,6 +2,9 @@ using System;
 using Library;
 using MessageEncoder;
 
+/*
+ * Program class to test encode and decode methods   
+ */
 class Program
 {
     static void Main()
